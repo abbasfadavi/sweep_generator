@@ -1,0 +1,134 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x1872D8B1DE903442",
+      "design_src": "SYSGEN",
+      "device": "xc7k160tfbg484-2",
+      "gen_directory": "../../../../sweep_generator.gen/sources_1/bd/sweep_generator_bd",
+      "name": "sweep_generator_bd",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2021.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "sweep_generator_1": ""
+    },
+    "ports": {
+      "clk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "sweep_generator_bd_clk",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "freq1": {
+        "type": "data",
+        "direction": "I",
+        "left": "15",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "freq2": {
+        "type": "data",
+        "direction": "I",
+        "left": "15",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "ii": {
+        "type": "data",
+        "direction": "O",
+        "left": "15",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 16} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} real {fixed {fractwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 15} signed {attribs {resolve_type immediate dependency {} format bool minimum {} maximum {}} value true}}}}}}",
+            "value_src": "const_prop"
+          }
+        }
+      },
+      "rr": {
+        "type": "data",
+        "direction": "O",
+        "left": "15",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 16} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} real {fixed {fractwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 15} signed {attribs {resolve_type immediate dependency {} format bool minimum {} maximum {}} value true}}}}}}",
+            "value_src": "const_prop"
+          }
+        }
+      }
+    },
+    "components": {
+      "sweep_generator_1": {
+        "vlnv": "User_Company:SysGen:sweep_generator:1.0",
+        "xci_name": "sweep_generator_bd_sweep_generator_1_0",
+        "xci_path": "ip\\sweep_generator_bd_sweep_generator_1_0\\sweep_generator_bd_sweep_generator_1_0.xci",
+        "inst_hier_path": "sweep_generator_1"
+      }
+    },
+    "nets": {
+      "clk_1": {
+        "ports": [
+          "clk",
+          "sweep_generator_1/clk"
+        ]
+      },
+      "freq1_1": {
+        "ports": [
+          "freq1",
+          "sweep_generator_1/freq1"
+        ]
+      },
+      "freq2_1": {
+        "ports": [
+          "freq2",
+          "sweep_generator_1/freq2"
+        ]
+      },
+      "sweep_generator_1_ii": {
+        "ports": [
+          "sweep_generator_1/ii",
+          "ii"
+        ]
+      },
+      "sweep_generator_1_rr": {
+        "ports": [
+          "sweep_generator_1/rr",
+          "rr"
+        ]
+      }
+    }
+  }
+}

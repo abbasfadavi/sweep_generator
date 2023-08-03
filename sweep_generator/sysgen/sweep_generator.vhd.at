@@ -1,0 +1,62 @@
+{
+  'Line_108' => {
+    'CodeInstance' => 'sweep_generator_struct/cw',
+    'Instance' => 'cw',
+    'SimulinkInstance' => 'sweep_generator/cw'
+  },
+  'Line_116' => {
+    'CodeInstance' => 'sweep_generator_struct/addsub',
+    'Instance' => 'addsub',
+    'SimulinkInstance' => 'sweep_generator/AddSub'
+  },
+  'Line_147' => {
+    'CodeInstance' => 'sweep_generator_struct/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'sweep_generator/AddSub1'
+  },
+  'Line_178' => {
+    'CodeInstance' => 'sweep_generator_struct/counter',
+    'Instance' => 'counter',
+    'SimulinkInstance' => 'sweep_generator/Counter'
+  },
+  'Line_192' => {
+    'CodeInstance' => 'sweep_generator_struct/relational',
+    'Instance' => 'relational',
+    'SimulinkInstance' => 'sweep_generator/Relational'
+  },
+  'Line_218' => {
+    'CodeInstance' => 'sweep_generator_default_clock_driver/clockdriver',
+    'Instance' => 'clockdriver',
+    'SimulinkInstance' => ''
+  },
+  'Line_251' => {
+    'CodeInstance' => 'sweep_generator_default_clock_driver',
+    'Instance' => 'sweep_generator_default_clock_driver',
+    'SimulinkInstance' => ''
+  },
+  'Line_259' => {
+    'CodeInstance' => 'sweep_generator_struct',
+    'Instance' => 'sweep_generator_struct',
+    'SimulinkInstance' => 'sweep_generator'
+  },
+  'Line_31' => {
+    'CodeInstance' => 'sweep_generator_struct/cw/constant_x0',
+    'Instance' => 'constant_x0',
+    'SimulinkInstance' => 'sweep_generator/cw/Constant'
+  },
+  'Line_38' => {
+    'CodeInstance' => 'sweep_generator_struct/cw/dds_compiler_6_0',
+    'Instance' => 'dds_compiler_6_0',
+    'SimulinkInstance' => 'sweep_generator/cw/DDS Compiler 6.0 '
+  },
+  'Line_48' => {
+    'CodeInstance' => 'sweep_generator_struct/cw/register1',
+    'Instance' => 'register1',
+    'SimulinkInstance' => 'sweep_generator/cw/Register1'
+  },
+  'Line_61' => {
+    'CodeInstance' => 'sweep_generator_struct/cw/register2',
+    'Instance' => 'register2',
+    'SimulinkInstance' => 'sweep_generator/cw/Register2'
+  }
+}
